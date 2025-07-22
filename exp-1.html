@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Online Journal</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Your Online Journal</h1>
+    <p><em>Write your thoughts. Your space. Your mind.</em></p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#write">Write</a> |
+    <a href="#previous">Previous Entries</a> |
+    <a href="#favorites">Inspiration</a> |
+    <a href="#contact">Help</a>
+  </nav>
+
+  <!-- Section: Journal Entry -->
+  <section id="write">
+    <h2>Write a New Journal Entry</h2>
+
+    <!-- Form (No backend for now, just layout) -->
+    <form>
+      <label for="entryDate">Date:</label>
+      <input type="date" id="entryDate" name="entryDate" required><br><br>
+
+      <label for="entryTitle">Title:</label>
+      <input type="text" id="entryTitle" name="entryTitle" placeholder="My Mood Today..." required><br><br>
+
+      <label for="entryText">Your Journal:</label><br>
+      <textarea id="entryText" name="entryText" rows="10" cols="60" placeholder="Write your thoughts here..." required></textarea><br><br>
+
+      <label>Mood:</label>
+      <select name="mood">
+        <option value="😊">😊 Happy</option>
+        <option value="😞">😞 Sad</option>
+        <option value="😤">😤 Stressed</option>
+        <option value="😌">😌 Calm</option>
+      </select><br><br>
+
+      <input type="submit" value="Save Entry (not functional)">
+    </form>
+
+    <p><small>* This is a prototype. Entries are not stored without backend.</small></p>
+  </section>
+
+  <!-- Section: Sample Table -->
+  <section id="previous">
+    <h2>Sample Mood Tracker</h2>
+    <table border="1">
+      <tr>
+        <th>Date</th>
+        <th>Mood</th>
+        <th>Short Note</th>
+      </tr>
+      <tr>
+        <td>2025-07-18</td>
+        <td>😊</td>
+        <td>Felt refreshed after writing.</td>
+      </tr>
+      <tr>
+        <td>2025-07-17</td>
+        <td>😌</td>
+        <td>Evening walks calm me down.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Section: Favorite Quotes -->
+  <section id="favorites">
+    <h2>Inspiration for Writing</h2>
+
+    <ul>
+      <li>"Journaling is like whispering to one's self and listening at the same time."</li>
+      <li>"Turn your wounds into wisdom." – Oprah Winfrey</li>
+      <li>"Write what disturbs you, what you fear, what you have not been willing to speak about." – Natalie Goldberg</li>
+    </ul>
+
+    <!-- New heading and span usage -->
+    <h3>Bonus Writing Tip</h3>
+    <p>Always write in the moment. Let your <span style="font-weight:bold; color:darkblue;">inner voice</span> speak freely.</p>
+  </section>
+
+  <!-- Section: Additional Content (Image, Div, Entity Example) -->
+  <section>
+    <h2>Journal Decor</h2>
+
+    <div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+      <h3>Today's Visual Prompt</h3>
+      <img src="scene.jpg" alt="Calming scenery" width="300" height="150" />
+      <p>A peaceful view to calm your thoughts and help focus your journaling practice.</p>
+    </div>
+
+    
+    <!-- HTML comment example -->
+    <!-- This section is for demonstrating image, div, and HTML entity usage -->
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <h2>Need Help?</h2>
+    <p>Reach us at <a href="mailto:support@onlinejournal.com">support@onlinejournal.com</a></p>
+    <p>Visit our <a href="https://onlinejournalhelp.com" target="_blank">Help Center</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Online Journal Platform. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
